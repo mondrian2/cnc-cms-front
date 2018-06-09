@@ -1,0 +1,28 @@
+@import "../../../assets/style/base/_fontneocat.css";
+#posts {
+    .posts {
+        border-top: solid 0.5em #C50519;
+        margin: 0.7em;
+        margin-bottom: 0.5em;
+        background-color:rgba(0, 0, 0, 0.5);
+        p {
+            padding-left: 1em;
+            padding-bottom: 1em;
+            font-size: 0.8em;
+        }
+        h5 {
+            padding: 0.8em;
+            color: #f0ff00;
+        }
+    }
+    .notas {
+        color: #f0ff00;
+        border-top: #f0ff00 solid thin;
+    }
+    h3 {
+        font-size: 0.6em;
+    }
+    .neocat {
+        font:36px 'Neocat-Regular_3.0', normal;
+    }
+}

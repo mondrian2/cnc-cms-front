@@ -1,0 +1,33 @@
+@import "../../assets/style/constantes/_cores.scss";
+@import "../../assets/style/base/_fontneocat.css";
+#nav {
+    background-color: brown;
+    color: #ffffff;
+    text-align: left;
+    .nav{
+        padding-top: 3.8em;
+        display: inline-block;
+        text-align: left;
+    }
+    .logo{
+        text-align: left;
+        padding-top: 0.5em;
+        li {
+            display: inline-block;
+            padding-right: 1em;
+        }
+    }
+    .neocat {
+        font:24px 'Neocat-Regular_3.0', normal;
+    }
+    
+    @media screen and (max-width: 600px) {
+        .logo{
+            text-align: center;
+            padding-top: 1em;
+        }
+        .neocat {
+            font:12px 'Neocat-Regular_3.0', normal;
+        }
+    }
+}

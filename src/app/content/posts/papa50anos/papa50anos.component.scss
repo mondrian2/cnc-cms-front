@@ -1,0 +1,22 @@
+.corpo-post {
+    background-color: #ffffff;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    color: #000000;
+    padding: 2em;
+    .titulo {
+        font-size: 2em;
+        font-weight: bold;
+        text-align: left;
+    }
+    .subtitulo {
+        font-weight: bold;
+    }
+    p {
+        text-align: justify;
+
+    }
+    b {
+        font-size: -3em;
+    }
+}

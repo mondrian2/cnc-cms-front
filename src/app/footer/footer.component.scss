@@ -1,0 +1,30 @@
+#footer {
+    background-color: #C50519;
+    color: #ffffff;
+    li {
+        list-style-type: none;
+        font-size: 0.8em;
+    }
+    a {
+        color: #f0ff00;
+        &:hover {
+            color: #400404;
+        }
+    }  
+    .links {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    .redessociais {
+        padding-top: 8em;
+        padding-bottom: 2em;
+    }
+    .redessociais {
+        text-align: left;
+        li {
+            display: inline;
+            padding: 0.2em;
+            font-size: 4em;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+#header{
+    padding-bottom: 2em;
+    padding-top: 2em;
+    .video{
+        border-top: solid 0.5em #C50519;
+        margin: 0.7em;
+        background-color:rgba(0, 0, 0, 0.5);
+        p {
+            padding-left: 1em;
+            padding-right: 1em;
+            padding-bottom: 1em;
+            font-size: 0.8em;
+            span {
+                color: #f0ff00;    
+            }
+        }
+        h5 {
+            padding: 0.8em;
+            color: #f0ff00;
+        }
+    }
+    .cinquenta {
+        padding-left: 6em;
+        padding-right: 6em;
+        padding-top: 3em;
+    }
+}
